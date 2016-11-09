@@ -49,7 +49,11 @@
 			"author": ["guillermooo", "FichteFoll"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": "<3092",
+					"tags": "st2-"
+				},
+				{
+					"sublime_text": ">=3092",
 					"tags": true
 				}
 			]
@@ -381,6 +385,20 @@
 			]
 		},
 		{
+			"name": "PasteAsString",
+			"details": "https://github.com/mom1/PasteAsString",
+			"readme": "https://raw.githubusercontent.com/mom1/PasteAsString/master/README.md",
+			"issues": "https://github.com/mom1/PasteAsString/issues",
+			"labels": ["text manipulation"],
+			"author": "MOM",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/Paaskehare/pastebin-sublime-plugin",
 			"releases": [
 				{
@@ -689,6 +707,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "PersistentPython",
+			"details": "https://github.com/mottosso/PersistentPython",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]

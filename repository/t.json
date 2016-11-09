@@ -4,10 +4,11 @@
 		{
 			"name": "Tab Filter",
 			"details": "https://github.com/robinmalburn/sublime-tabfilter",
+			"author": "Robin Malburn",
 			"releases": [
 				{
 					"sublime_text": "*",
-					"branch": "master"
+					"tags": true
 				}
 			]
 		},
@@ -499,6 +500,18 @@
 			"details": "https://github.com/astrauka/TestRSpec",
 			"previous_names": ["Test RSpec"],
 			"labels": ["ruby", "testing", "rspec", "spec"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TeXPreview",
+			"details": "https://github.com/alexkorovkov/TeXPreview",
+			"readme": "https://github.com/alexkorovkov/TeXPreview/blob/master/README.md",
+			"labels": ["tex", "latex", "preview"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1231,6 +1244,17 @@
 			]
 		},
 		{
+			"name": "Theme - Onlywsx",
+			"details": "https://github.com/onlywsx/Theme---Onlywsx",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Theme - Orchis",
 			"details": "https://github.com/aldomann/sublime-orchis",
 			"author": "Alfredo Hernández",
@@ -1323,6 +1347,7 @@
 		},
 		{
 			"name": "Theme - Rainbow",
+			"author": "Pradyun Gedam",
 			"details": "https://github.com/pradyunsg/Sublime-Rainbow-Theme",
 			"labels": ["theme", "adaptive"],
 			"releases": [
@@ -1368,6 +1393,17 @@
 		{
 			"name": "Theme - Retina",
 			"details": "https://github.com/braver/SublimeRetina",
+			"labels": ["theme"],
+			"releases": [
+				{
+					"sublime_text": ">3100",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Theme - Sea Lion",
+			"details": "https://github.com/braver/theme-sea-lion",
 			"labels": ["theme"],
 			"releases": [
 				{
@@ -2835,7 +2871,7 @@
 		},
 		{
 			"name": "TypoScript",
-			"details": "https://bitbucket.org/danielsiepmann-team/sublime-text-typoscript",
+			"details": "https://github.com/DanielSiepmann/Sublime-Text-TypoScript",
 			"author": "Daniel Siepmann",
 			"labels": ["language syntax"],
 			"releases": [

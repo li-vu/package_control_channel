@@ -365,7 +365,6 @@
 			"releases": [
 				{
 					"sublime_text": ">=3083",
-					"platforms": ["osx", "linux"],
 					"tags": true
 				}
 			]
@@ -586,11 +585,11 @@
 		},
 		{
 			"name": "ScummC",
-			"details": "https://github.com/idleberg/ScummC-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-scummc",
 			"labels": ["auto-complete"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
+					"sublime_text": "<3103",
 					"tags": "st2-"
 				},
 				{
@@ -1343,15 +1342,15 @@
 		},
 		{
 			"name": "SideBarEnhancements",
-			"details": "https://github.com/titoBouzout/SideBarEnhancements",		
-			"readme": "https://raw.githubusercontent.com/titoBouzout/SideBarEnhancements/st3/readme.md",		
-			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DD4SL2AHYJGBW",		
-			"labels": ["sidebar", "folder", "directory", "file", "clipboard"],		
-			"releases": [		
-				{		
+			"details": "https://github.com/SideBarEnhancements-org/SideBarEnhancements",
+			"readme": "https://raw.githubusercontent.com/SideBarEnhancements-org/SideBarEnhancements/st3/readme.md",
+			"donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DD4SL2AHYJGBW",
+			"labels": ["sidebar", "folder", "directory", "file", "clipboard"],
+			"releases": [
+				{
 					"sublime_text": ">=3000",
 					"tags":true
-				}		
+				}
 			]
 		},
 		{
@@ -1407,6 +1406,16 @@
 					"branch": "master"
 				}
 			]
+		},
+		{
+			"name": "SIMPL+ Syntax Highlight",
+			"author": "Adelyte Company (Taylor Zane Glaeser)",
+			"details": "https://github.com/adelyte/crestron-splus-sublime",
+			"labels": ["crestron", "simpl", "simpl plus", "splus"],
+			"releases": [{
+				"sublime_text": ">=3000",
+				"tags": true
+			}]
 		},
 		{
 			"name": "Simple Ember.js Navigator",
@@ -4564,7 +4573,9 @@
 		},
 		{
 			"name": "SystemVerilog",
-			"details": "https://bitbucket.org/Clams/sublimesystemverilog",
+			"details": "https://github.com/TheClams/SystemVerilog",
+			"homepage": "http://sv-doc.readthedocs.org/en/latest",
+			"issues": "https://bitbucket.org/Clams/sublimesystemverilog/issues",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{

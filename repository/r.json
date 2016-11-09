@@ -403,6 +403,17 @@
 			]
 		},
 		{
+			"name": "React Coffee Snippets",
+			"details": "https://github.com/monstersintokyo/react-coffee-sublime-snippets",
+			"labels": ["snippets", "cjsx", "coffee", "coffeescript", "react"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "React Development Snippets",
 			"details": "https://github.com/jeantimex/react-sublime-snippet",
 			"labels": ["snippets", "jsx", "es6", "react", "test case", "redux", "action"],
@@ -914,6 +925,17 @@
 			]
 		},
 		{
+			"name": "ReqsLang",
+			"details": "https://github.com/petarslovic/sublime-reqs-language",
+			"labels": ["requirements", "todo", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Request",
 			"details": "https://github.com/twolfson/sublime-request",
 			"labels": ["http", "url"],
@@ -1131,7 +1153,7 @@
 		},
 		{
 			"name": "Riot Tag",
-			"details": "https://github.com/crisward/sublime-tag",
+			"details": "https://github.com/riot/syntax-highlight",
 			"labels": ["language syntax"],
 			"releases": [
 				{
@@ -1680,12 +1702,13 @@
 			]
 		},
 		{
-			"name": "Rust",
+			"name": "Rust Enhanced",
 			"details": "https://github.com/rust-lang/sublime-rust",
+			"previous_names": ["Rust"],
 			"releases": [
 				{
-					"sublime_text": "*",
-					"branch": "master"
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -1705,6 +1728,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "RustFormat",
+			"details": "https://github.com/Rypac/sublime-rust-format",
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]

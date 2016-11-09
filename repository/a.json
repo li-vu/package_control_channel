@@ -278,6 +278,17 @@
 			]
 		},
 		{
+			"name": "AGC Assembly",
+			"details": "https://github.com/jimlawton/AGC-Assembly",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Agila Theme",
 			"details": "https://github.com/arvi/Agila-Theme",
 			"labels": ["theme", "color scheme", "oceanic", "solarized"],
@@ -562,6 +573,16 @@
 			]
 		},
 		{
+			"details": "https://github.com/DamnWidget/anaconda_go",
+			"labels": ["go", "golang", "linting", "auto-complete", "language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/DamnWidget/anaconda_php",
 			"labels": ["linting", "language syntax", "php"],
 			"releases": [
@@ -700,6 +721,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Angular2 HTML Syntax",
+			"details": "https://github.com/princemaple/angular2-html-syntax",
+			"labels": ["language syntax", "angular"],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -1143,7 +1175,7 @@
 		},
 		{
 			"name": "AppleScript Extensions",
-			"details": "https://github.com/idleberg/AppleScript-Sublime-Text",
+			"details": "https://github.com/idleberg/sublime-applescript",
 			"labels": ["auto-complete", "build system", "snippets"],
 			"previous_names": ["AppleScript Completions and Snippets"],
 			"releases": [
@@ -1769,7 +1801,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": ["windows"],
 					"tags": true
 				}
 			]
@@ -1783,6 +1814,16 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "AutoItScript",
+			"details": "https://github.com/AutoIt/SublimeAutoItScript",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -1963,10 +2004,12 @@
 			]
 		},
 		{
-			"details": "https://github.com/voventus/AVR-ASM-Sublime",
+			"name": "AvrAssembler",
+			"details": "https://github.com/vyivanov/AVR-ASM-Sublime",
 			"labels": ["language syntax"],
 			"releases": [
 				{
+					"platforms": ["osx", "linux", "windows"],
 					"sublime_text": "*",
 					"branch": "master"
 				}
